@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/textures/corridor/readme_board.webp" alt="Wooden Sign" width="400" />
+  <img src="public/textures/corridor/readme_board_animated.gif" alt="Wooden Sign" width="400" />
 
   <h1>🖋️ The Drawn Dimension</h1>
   <p><strong>An Immersive 3D Spatial Portfolio by Sunil Yogi</strong></p>
