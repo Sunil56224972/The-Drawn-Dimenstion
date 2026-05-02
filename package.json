@@ -22,6 +22,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.11.0",
+    "text-to-svg": "^3.1.5",
     "three": "^0.182.0",
     "vara": "^1.4.1"
   },
