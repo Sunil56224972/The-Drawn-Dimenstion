@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "npm run build && wrangler dev",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -29,6 +30,7 @@
     "vara": "^1.4.1"
   },
   "devDependencies": {
+    "@cloudflare/vite-plugin": "^1.35.0",
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
@@ -40,6 +42,7 @@
     "sass": "^1.97.1",
     "sharp": "^0.34.5",
     "vite": "^7.2.4",
-    "vite-plugin-compression": "^0.5.1"
+    "vite-plugin-compression": "^0.5.1",
+    "wrangler": "^4.87.0"
   }
 }
